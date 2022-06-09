@@ -1,0 +1,34 @@
+.section {
+  margin: 230px 0;
+}
+
+.row {
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+
+.reverse .info {
+  text-align: right;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 1em 0;
+}

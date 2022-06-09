@@ -9,3 +9,7 @@
   /* Size */
   --border-radius: 8px;
 }
+
+.App {
+  margin-top: 100px;
+}

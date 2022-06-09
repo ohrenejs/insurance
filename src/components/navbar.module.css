@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 1em 2em;
+  background-color: var(--color-white);
+}
+
+.title {
+  width: 150px;
+  height: 70px;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.li {
+  margin: 0 0.3em;
+}
+
+.li > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  transition: border-color 300ms;
+}
+
+.li:hover > * {
+  border-color: var(--color-primary);
+}
+
+.login-btn {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
