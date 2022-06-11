@@ -13,9 +13,10 @@ import Points from './components/points';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" id='home'>
         <Navbar></Navbar>
         <Header></Header>
+        <div id="feature"></div>
         <Feature></Feature>
         <Feature classNames="reverse"></Feature>
         <Points></Points>

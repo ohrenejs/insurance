@@ -6,7 +6,7 @@ import styles from './points.module.css';
 class Points extends Component {
     render() {
         return (
-            <section className={styles.points}>
+            <section className={styles.points} id="points">
                 <Container>
                     <div className={styles.info}>
                         <h2>내 거친 생각과</h2>

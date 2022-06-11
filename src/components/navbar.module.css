@@ -14,18 +14,18 @@
 
 .title {
   width: 150px;
-  height: 70px;
 }
 
 .logo {
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 60px;
 }
 
 .list {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .li {
