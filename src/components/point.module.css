@@ -1,0 +1,25 @@
+.point {
+  text-align: center;
+}
+.i-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  color: var(--color-white);
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.i-box svg {
+  width: 25%;
+  height: 25%;
+}
+
+.title {
+  display: block;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}

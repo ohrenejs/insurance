@@ -1,0 +1,12 @@
+.points {
+  margin: 230px 0;
+}
+
+.info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info > p {
+  margin: 1.5em 0;
+}

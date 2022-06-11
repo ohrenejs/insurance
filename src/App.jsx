@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer';
 import Feature from './components/feature';
 import Header from './components/header';
+import Points from './components/points';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Header></Header>
         <Feature></Feature>
         <Feature classNames="reverse"></Feature>
+        <Points></Points>
         <Footer></Footer>
       </div>
     );
